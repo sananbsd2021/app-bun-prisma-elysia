@@ -13,3 +13,16 @@ bun run dev
 ```
 
 Open http://localhost:3000/ with your browser to see the result.
+
+```bash
+bun prisma db seed
+
+bunx prisma init
+
+bun add @elysiajs/swagger @prisma/client prisma
+
+npx prisma migrate dev --name init
+
+bunx prisma studio
+
+```
